@@ -1,0 +1,30 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+*::after{
+    box-sizing: inherit;
+}
+*::before{
+    box-sizing: inherit;
+}
+body{
+    height: 100vh;
+    background:#fafafa;
+    scroll-behavior: smooth;
+    cursor: pointer;
+ 
+}
+
+html{
+    text-size-adjust: 100%;
+    font-size: 16px;
+}

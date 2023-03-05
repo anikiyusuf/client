@@ -1,0 +1,133 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+
+.dessertsSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+.dessertsSection > img {
+    width:100%;
+    margin-top:1rem;
+}
+
+.dessertsTiming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;   
+}
+
+
+.dessertsTiming > a {
+    margin-top: 2rem;
+}
+
+.dessertsIngredient > ul{
+  list-style: none;
+}
+.dessertsIngredient > h3{
+    margin-top: 1rem;
+}
+
+.dessertDirection{
+    margin-top: 1rem;
+}
+
+.dessertsNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+
+.dessertNutritionItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.dessertFacts{
+    margin-top: 2rem;
+}
+
+.closeDesserts > .cakeItem{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+ 
+
+ @media (max-width:$laptop){
+        
+.dessertsSection{
+   font-size:13px;
+}
+    .dessertsTiming{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background:rgb(217, 217, 217);
+        width:70%;
+        padding:2rem;
+        margin-top: 1rem;   
+    }
+    
+ }
+
+ @media (max-width:$tablet){
+    
+.dessertsSection{
+    
+    font-size:13px;
+}
+    .dessertsTiming{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background:rgb(217, 217, 217);
+        width:85%;
+        padding:1rem;
+        margin-top: 1rem;   
+    }
+ }
+
+ @media (max-width:$mobile){
+        
+.dessertsSection{
+     font-size:10px;
+}
+.dessertsTiming{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width:80%;
+    padding:1rem;
+   
+}
+.dessertsNutrition{
+    background: rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.closeDesserts > .cakeItem{
+    border: 1px solid black;
+    width: 75%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+ }

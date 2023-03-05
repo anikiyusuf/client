@@ -1,0 +1,113 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+
+.BeansRiceSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+.BeansRiceSection > img {
+    width:100%;
+    margin-top:1rem;
+}
+
+.beansTiming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;    
+}
+
+
+.beansTiming > a{
+    margin-top: 2rem;
+}
+
+.beansIngredient{
+    margin-top:1rem;
+}
+.beansIngredient > ul {
+     list-style: none;
+}
+
+.beansDirection{
+    margin-top: 1rem;
+}
+
+.beansNutrition {
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+}
+
+.beansNutritionItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.beansNutritionFact{
+    margin-top: 2rem;
+}
+
+.beansFact{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+ @media (max-width:$tablet) {
+    
+.BeansRiceSection{
+    
+    font-size:13px;
+    font-weight: 400;
+}
+ .beansTiming{
+        width:75%; 
+ }
+      
+}
+
+ @media (max-width:$mobile){
+    .BeansRiceSection{
+        font-size:12px;
+        font-weight: 400;
+    }
+
+    .beansTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width:90%; 
+        padding:1rem
+    }
+
+
+    .beansNutrition {
+        background: rgb(217, 217, 217);
+        width:60%;
+        padding:1rem;
+        margin-top:1rem;
+    }
+    .beansFact{
+        border: 1px solid black;
+        width: 75%;
+        padding:2rem;
+        margin-top: 1rem;
+        font-size: 10px;
+    }
+ }

@@ -1,0 +1,130 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+
+.tortillaSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem; 
+}
+
+.tortillaSection > img {
+    width:100%;
+    margin-top:1rem;
+}
+.tortillaTime{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem; 
+}
+.tortillaTime > a {
+    margin-top: 2rem;
+}
+.tortillaIngredient{
+    margin-top: 1rem;
+}
+.tortillaIngredient > ul {
+    list-style: none;
+}
+
+.tortillaDirection{
+    margin-top: 1rem;  
+}
+.tortillaNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem; 
+}
+
+.tortillaItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tortillaNutritionFact{
+    margin-top: 2rem;
+}
+
+.tortillaFact{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+
+ @media (max-width:$laptop){
+    .tortillaSection{
+        font-size:13px; 
+        font-weight: 400;
+    }
+ }
+
+
+ @media (max-width:$tablet){
+    .tortillaSection{
+        font-size:15px; 
+        font-weight: 400;
+    }
+ 
+    .tortillaTime{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:70%;
+        padding:2rem;
+        margin-top: 1rem; 
+    }
+    .tortillaNutrition{
+       
+        font-size: 10px;
+    }
+ }
+
+
+ @media (max-width:$mobile){
+    .tortillaSection{
+        font-size:12px; 
+        
+    }
+
+    .tortillaTime{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:90%;
+        padding:1rem;
+        margin-top: 1rem; 
+        font-size: 10px;
+    }
+    .tortillaNutrition{
+        margin-top: 2rem;
+        background: rgb(217, 217, 217);
+        width:60%;
+        padding:1rem; 
+        font-size: 10px;
+    }
+    .tortillaFact{
+        border: 1px solid black;
+        width: 70%;
+        padding:2rem;
+        margin-top: 1rem;
+        font-size: 10px;
+        font-size: 400;
+    }  
+ }

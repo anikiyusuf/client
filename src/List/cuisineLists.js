@@ -1,0 +1,26 @@
+export const cuisineLists = [
+    {
+        title:"French",
+        url:"French"
+    },
+    {
+        title:"Italian",
+        url:"Italian"
+    },
+     {
+        title:"Mexican",
+        url:"Mexican"
+    },  
+    {
+        title:"Chinese",
+        url:"Chinese"
+    },
+    {
+        title:"German",
+        url:"German"
+    },
+    {
+        title:"Japanese",
+        url:"Japanese"
+    },
+]

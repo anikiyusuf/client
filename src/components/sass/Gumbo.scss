@@ -1,0 +1,132 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+
+
+.gumboSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+.gumboSection > img{
+    width:100%;
+    margin-top:1rem;
+}
+
+.gumboTiming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;     
+}
+
+.gumboTiming > a {
+    margin-top: 2rem;
+}
+
+
+.gumboIngredient{
+    margin-top:1rem;
+  
+}
+.gumboIngredient > ul {
+    list-style: none;
+
+}
+
+.gumboDirection{
+    margin-top: 1rem; 
+}
+
+
+.gumboNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+
+.gumboNutritionFact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gumboNutritionLabel{
+    margin-top: 2rem;  
+}
+
+.gumboLabel{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem; 
+}
+
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+
+ @media (max-width:$laptop){
+    .gumboSection{
+        font-size:14px;
+    }
+
+    
+.gumboTiming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    width:60%;
+    
+}
+
+ }
+
+
+ @media (max-width:$tablet){
+    .gumboTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width:60%;  
+    }
+
+
+ }
+@media (max-width:$mobile){
+    .gumboSection{
+        font-size:10px;
+    }
+
+    .gumboTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width:90%;  
+    }
+
+    .gumboNutrition{
+        background: rgb(217, 217, 217);
+        width:60%;
+        padding:2rem;
+        margin-top: 1rem;
+    }
+    .gumboLabel{
+        border: 1px solid black;
+        width: 70%;
+        padding:2rem;
+        margin-top: 1rem; 
+    }
+    
+}

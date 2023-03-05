@@ -1,0 +1,93 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+.beefLoaf{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+.beefLoaf > img {
+    width:100%;
+    margin-top:1rem;
+}
+
+.timing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background:rgb(217, 217, 217);
+    width:50%;
+    padding:2rem;
+    margin-top: 1rem;   
+   
+}
+.timing > a {
+    margin-top: 2rem;
+}
+
+.ingredients > ul {
+    list-style:none;
+}
+
+
+.direction{
+    margin-top: 1rem;
+}
+
+.nutritionFacts{
+      background: rgb(217, 217, 217);
+      width:40%;
+      padding:2rem;
+}
+
+.nutritionItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fullLabel{
+    margin-top: 2rem;
+}
+
+.closeLabel > .labelItem{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.gradientLine{
+   border-style: solid;
+   border-color: rgb(239, 239, 239);
+   border-width: 1px;
+   border-image: initial;
+   width:100%;
+}
+
+
+
+@media(max-width:$mobile){
+    .timing{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:95%;
+        margin-top: 1rem;   
+    }
+    .nutritionFacts{
+        background: rgb(217, 217, 217);
+        width:90%;
+        padding:2rem;
+  }
+  .closeLabel > .labelItem{
+    border: 1px solid black;
+    font-size: 16px;
+    width:90%;
+    padding:1.5rem;
+    margin-top: 1rem;
+}
+}

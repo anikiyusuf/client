@@ -1,0 +1,119 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+.SaladSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem; 
+}
+.SaladSection > img{
+    width:100%;
+    margin-top:1rem; 
+}
+
+.SaladTiming{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background:rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem;  
+}
+
+.SaladTiming > a {
+    margin-top: 2rem;
+}
+
+.saladIngredient{
+    margin-top: 1rem;
+}
+.saladIngredient > ul {
+    list-style: none;
+}
+
+.saladDirection{
+    margin-top: 1rem;   
+}
+
+
+.saladNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+}
+
+.saladNutritionFact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+
+
+.saladFactLabel{
+    margin-top: 2rem; 
+}
+.saladLabel{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+ @media (max-width:$laptop){
+    .SaladSection{
+        font-size: 13px;
+    }
+ }
+ @media (max-width:$tablet){
+    .SaladSection{
+        font-size: 13px;
+    }
+    .SaladTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:60%;
+        padding:2rem;
+        margin-top: 1rem;  
+    }
+    
+ }
+
+ @media (max-width:$mobile){
+    .SaladSection{
+        font-size:10px;
+    }
+    .SaladTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:90%;
+        padding:1rem;
+        margin-top: 1rem;  
+    }
+    .saladNutrition{
+        background: rgb(217, 217, 217);
+        width:60%;
+        padding:1rem;
+        margin-top: 1rem;
+    }
+    .saladLabel{
+        border: 1px solid black;
+        width: 90%;
+        padding:1rem;
+        margin-top: 1rem;
+    }
+    
+ }

@@ -1,0 +1,122 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+.fishSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;  
+}
+.fishSection> img{
+    width:100%;
+    margin-top:1rem;   
+}
+.fishTime{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;    
+}
+.fishTime > a{
+    margin-top: 2rem;
+}
+
+.fishIngredient > ul{
+    list-style:none;
+}
+
+.fishDirection{
+    margin-top: 1rem;
+}
+
+.fishNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:1rem;
+    margin-top:1rem;
+}
+
+
+.fishFact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.FishNutritionLabel{
+    margin-top: 2rem;
+}
+
+.fishLabel{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem; 
+}
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+ 
+ @media(max-width:$laptop){
+    .fishSection{
+    font-size:13px;  
+}
+.fishTime{
+    width:70%;
+ 
+}
+ }
+
+ @media (max-width:$tablet){
+    .fishTime{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:60%;
+        padding:2rem;
+        margin-top: 1rem;    
+    }
+ }
+
+
+ @media (max-width:$mobile){
+    .fishSection{
+        font-size:10px;  
+    }
+    .fishTime{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:70%;
+        padding:1rem;
+        margin-top: 1rem;    
+    }
+
+    
+.fishNutrition{
+    background: rgb(217, 217, 217);
+    width:60%;
+    padding:1rem;
+    margin-top:1rem;
+}
+.fishTime > a{
+    margin-top: 2rem;
+}
+
+.fishLabel{
+    border: 1px solid black;
+    width: 60%;
+    padding:2rem;
+    margin-top: 1rem; 
+}
+ }
+ 

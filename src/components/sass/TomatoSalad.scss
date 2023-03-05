@@ -1,0 +1,105 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+.tomatoSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+.tomatoSection > img{
+    width:100%;
+    margin-top:1rem;
+}
+
+.tomatoTiming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;   
+}
+
+.tomatoTiming > a {
+    margin-top: 2rem; 
+}
+
+.tomatoIngredient > ul {
+    list-style: none;
+}
+.tomatoDirection{
+    margin-top: 1rem; 
+}
+.tomatoNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem; 
+}
+
+.tomatoNutritionFact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+.tomatoLabel{
+    margin-top: 2rem;
+}
+
+.tomatoLabelItem{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+
+ @media (max-width:$tablet){
+    .tomatoSection{
+       font-size:13px;
+    }
+    .tomatoTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background:rgb(217, 217, 217);
+        width:60%;
+        padding:1rem;
+        margin-top: 1rem;   
+    } 
+
+
+ }
+ @media (max-width:$mobile){
+    .tomatoSection{
+        font-size:10px;
+     }
+     .tomatoTiming{
+        width:90%;
+        padding:1rem;
+        
+    } 
+
+
+     .tomatoNutrition{
+        font-size: 10px;
+        width:60%;
+    }
+    .tomatoLabelItem{
+        border: 1px solid black;
+        width:80%;
+        padding:1rem;
+        margin-top: 1rem;
+    }
+ }

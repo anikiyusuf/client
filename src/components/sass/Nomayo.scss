@@ -1,0 +1,130 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+.NomayoSection{
+     background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+.NomayoSection > img{
+      width:100%;
+    margin-top:1rem;
+}
+
+.NomayoTiming{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background:rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem;      
+}
+
+
+.NomayoTiming >a {
+     margin-top: 2rem; 
+}
+.NomayoIngredient{
+    margin-top: 1rem;
+}
+
+.NomayoIngredient > ul{
+    list-style: none;
+}
+.NomayoDirection{
+      margin-top: 2rem;
+}
+
+
+.NomayoNutrition{
+    background: rgb(217, 217, 217);
+    width:30%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+
+.NomayoFact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.NomayoNutritionFact{
+    margin-top: 2rem;
+}
+.NomayoLabel{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+
+
+
+ @media(max-width:$laptop){
+    
+.NomayoSection{
+  
+    font-size:13px;
+}
+.NomayoTiming{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background:rgb(217, 217, 217);
+    width:50%;
+    padding:2rem;
+    margin-top: 1rem;      
+}
+
+ }
+
+ @media (max-width:$tablet){
+    
+.NomayoNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+ }
+
+ @media (max-width:$mobile){
+    .NomayoSection{
+   font-size:10px;
+}
+    .NomayoTiming{
+    width:90%;   
+    padding: 1rem;
+}
+.NomayoTiming >a {
+     margin-top: 2rem; 
+}
+    
+.NomayoNutrition{
+    background: rgb(217, 217, 217);
+    width:60%;
+    padding:1rem;
+    margin-top: 1rem;
+}
+
+
+.NomayoLabel{
+    border: 1px solid black;
+    width: 80%;
+    padding:1rem;
+    margin-top: 1rem;
+}
+ }

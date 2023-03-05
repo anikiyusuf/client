@@ -1,0 +1,205 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+.footerPage{
+    display: flex;
+    text-align: center;
+}
+.footContent{
+    display: flex;
+}
+.form{
+    width:50%;
+    height: 100%;
+}
+.formInner{
+    background-color: hsla(0,0%,100%,.9);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    width:50%;
+    padding:1rem;
+    margin:2rem auto;
+}
+
+form > input{
+   width:13rem;
+   padding:8px;
+   border-radius:6px;
+   border-style: solid;
+   border-color: rgb(239, 239, 239);
+   border-width: 1px;
+   margin-top: 0.5rem;
+   border-image: initial;
+}
+form > textarea{
+    width:13rem;
+    height:5rem;
+    border-color: rgb(239, 239, 239);
+}
+
+.submitBtn{
+ background: blue;
+ color: white;
+}
+.contentItem{
+    width:50%;
+    text-align: center;
+
+}
+
+.footerLogo{
+  margin-top: 2rem;
+}
+.footList > ul{
+    list-style: none;
+    text-align:left;
+    padding-left: 3rem;
+    line-height: 2rem;
+}
+.contact{
+    display: flex;
+    margin-top: 3rem;
+    padding-left: 2rem;
+    
+}
+
+.contact > a {
+    margin-right: 2rem;
+}
+
+@media (max-width:$laptop){
+    .footerPage{
+        display: flex;
+        text-align: center;
+    }
+  
+    
+    .formInner{
+        background-color: hsla(0,0%,100%,.9);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+        width:70%;
+        padding:1rem;
+        margin:1rem auto;
+        text-align: center;
+    }
+    
+    form > input{
+       width:13rem;
+       padding:8px;
+       border-radius:8px;
+       border-style: solid;
+       border-color: rgb(239, 239, 239);
+       border-width: 1px;
+       margin-top: 0.5rem;
+       border-image: initial;
+    }
+    form > textarea{
+        width:13rem;
+        height:5rem;
+         border-color: rgb(239, 239, 239);
+    }
+    
+    .submitBtn{
+     background: blue;
+     color: white;
+    }
+    .contentItem{
+        width:50%;
+        text-align: center;
+    
+    }
+    
+    .footerLogo{
+      margin-top: 2rem;
+    }
+    .footList > ul{
+        list-style: none;
+        text-align:left;
+        padding-left: 3rem;
+        line-height: 2rem;
+    }
+    .contact{
+        margin-top: 3rem;
+        padding-left:1rem;
+        
+    }
+}
+
+
+@media (max-width:$tablet){
+    .formInner{
+        background-color: hsla(0,0%,100%,.9);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+        width:70%;
+        padding:1rem;
+        margin:1rem auto;
+    }
+
+    form > input{
+        width:12rem;
+        padding:8px;
+        border-radius:8px;
+        border-style: solid;
+        border-color: rgb(239, 239, 239);
+        border-width: 1px;
+        margin-top: 0.5rem;
+        border-image: initial;
+     }
+     .footList > ul{
+        list-style: none;
+        text-align:left;
+        padding-left:1rem;
+        line-height:1.5rem;
+        font-size: 13px;
+    }
+    .contact > a {
+        margin-right:0.5rem;
+    }
+}
+
+
+@media (max-width:$mobile){
+    
+    .formInner{
+        background-color: hsla(0,0%,100%,.9);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+        width:80%;
+        padding:1rem;
+        margin:1rem auto;
+}
+
+
+form > input{
+    width:10rem;
+    padding:2px;
+    border-radius:4px;
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+ }
+ form > textarea{
+     width:10rem;
+     border-color: rgb(239, 239, 239);
+}
+
+.footList > ul{
+        list-style: none;
+        text-align:left;
+        padding-left:1rem;
+        line-height:1rem;
+    }
+
+    .contact{
+        display:block;
+        margin-top: 3rem;
+        padding-left:1rem;
+        
+    }
+    .contact > a {
+        display:block ;
+        margin-right:0.3rem;
+    }
+}
+

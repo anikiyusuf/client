@@ -1,0 +1,293 @@
+.NavBarList{
+     margin:auto; 
+     
+}
+a{
+    text-decoration: none;
+    color:black;
+    transition: 2s;
+}
+a:hover{
+    text-decoration:underline;
+    
+}
+.innerNavbarItem{
+    padding:1rem;
+    display:flex;
+}
+.dishIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column;
+
+}
+.dishBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.cuisineIcon{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column;
+}
+
+.cuisineBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.occasionIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column; 
+}
+.occasionBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+.ingredientIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column; 
+}
+.ingredientBtn > ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding: 2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.cookingIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column; 
+}
+
+.cookingBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.categoriesIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column; 
+}
+
+.categoriesBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:2rem ;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.dietIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column;   
+}
+.dietBtn > ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:10rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding: 2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.blogIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column; 
+}
+.blogBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:8rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:2rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+}
+
+
+.signIcons{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column; 
+}
+
+
+.signBtn > ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left:-10rem;
+    width:4rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+    padding:3rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.responsive{
+    display: none;
+}
+
+
+
+@media (max-width:992px){
+.innerNavbarItem{
+    display:none;
+}
+
+
+
+.responsive{
+    display:block;
+    top:0;
+    left:0;
+    transition: 1ms ease;
+    flex-direction: column;
+}
+
+.menuIcon{
+    margin-left: 20rem;
+}
+.innerHamburger{
+    position: absolute;
+    margin-top: 1rem;
+    width:20rem;
+    align-items: center;
+    justify-content: center;
+    line-height:3rem;
+    text-align: center;
+    background-color: hsla(0,0%,100%,.9);
+    color: hsl(277, 100%, 62%); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+ .innerHamburgerItem > p{
+    font-weight: 600;
+ } 
+}
+
+@media  (max-width:768px){
+    .menuIcon{
+        margin-left: 10rem;
+    }
+}

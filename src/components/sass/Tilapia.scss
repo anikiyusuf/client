@@ -1,0 +1,131 @@
+$tablet:768px;
+$mobile:600px;
+$laptop:992px;
+$desktop:1200px;
+
+
+
+.tilapiaSection{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+
+.tilapiaSection > img{
+    width:100%;
+    margin-top:1rem; 
+}
+
+.tilapiaTiming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:rgb(217, 217, 217);
+    width:60%;
+    padding:2rem;
+    margin-top: 1rem;  
+}
+.tilapiaTiming > a {
+    margin-top: 2rem;  
+}
+
+.tilapiaIngredient{
+    margin-top: 1rem;
+}
+
+.tilapiaIngredient > ul{
+    list-style: none;
+}
+
+.tilapiaDirection{
+    margin-top: 1rem;
+}
+
+.tilapiaNutrition{
+    background: rgb(217, 217, 217);
+    width:40%;
+    padding:2rem;
+    margin-top: 1rem;
+}
+
+.tilapiaItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.tilapiaNutritionFact{
+    margin-top: 2rem;
+}
+
+.tilapiaFact{
+    border: 1px solid black;
+    width: 50%;
+    padding:2rem;
+    margin-top: 1rem; 
+}
+
+
+.gradientLine{
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-width: 1px;
+    border-image: initial;
+    width:100%;
+ }
+
+
+
+ @media (max-width:$laptop){
+
+    .tilapiaSection{
+        
+        font-size:13px;
+    }
+    .tilapiaTiming{
+        width:70%;
+        padding:2rem;
+        
+    }
+
+
+ }
+
+ @media (max-width:$tablet){
+    .tilapiaTiming{
+        width:80%;
+        padding:2rem;
+        
+    }
+
+ }
+
+ @media (max-width:$mobile){
+      .tilapiaSection{
+        font-size:10px;
+}
+    .tilapiaTiming{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width:100%;
+        padding:1rem;
+        
+    }
+    .tilapiaNutrition{
+        background: rgb(217, 217, 217);
+        width:60%;
+        padding:2rem;
+        margin-top: 1rem;
+    }
+    .tilapiaFact{
+        border: 1px solid black;
+        width: 80%;
+        padding:1rem;
+        margin-top: 1rem; 
+    }
+    
+    
+ }
