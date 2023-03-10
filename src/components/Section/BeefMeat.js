@@ -17,7 +17,7 @@ export default function BeefMeat(){
         setLabel(false)
     }
     return (
-        <div className="BeefSection">
+        <div className="BeefSection"  id="BeefMeat">
         <NavBar/>
        <div className="beefLoaf">
        <h1>Best Ever Meat Loaf</h1>

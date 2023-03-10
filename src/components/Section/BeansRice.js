@@ -13,7 +13,7 @@ export default function BeansRice() {
       setBeansState(false)
     }
     return (
-    <div className="BeansRicePage">
+    <div className="BeansRicePage" id="beansRice">
     <NavBar/>
     <div className="BeansRiceSection">
       <h1>Authentic Louisiana Red Beans and Rice</h1>

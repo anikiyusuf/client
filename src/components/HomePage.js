@@ -1,17 +1,17 @@
 import React from 'react'
-// import NavBar from './NavBar'
-// import Section from './Section'
-// import Footer from "./Footer"
-import Nomayo from './Section/Nomayo'
+import NavBar from './NavBar'
+import Section from './Section'
+import Footer from "./Footer"
+
 
 function HomePage(){
     return(
         <header>
           <div className="nav-area">
-         <Nomayo/>
-            {/* <NavBar/>
+     
+            <NavBar/>
             <Section/>
-            <Footer/> */}
+            <Footer/>
           </div>
         </header>
        
