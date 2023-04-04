@@ -6,7 +6,7 @@ export const sectionLists = [
         image:"Best-Ever-Meatloaf.jpg",
         title:"Beef",
         shortDescription:"Best Ever Meatloaf",
-        url:"../components/Section/BeefMeat.js"
+        url:"../Section/BeefMeat.js"
     },
     {
         
@@ -39,7 +39,7 @@ export const sectionLists = [
     {
         
         image:"Tortilla.jpg",
-        title:"Tortilla Soup Recipes",
+        title:"Tortilla"  ,
         shortDescription:"Dump-and-Go Instant Pot Tortilla Soup",
         url:"../components/Section/TortillaSoup.js"
     },

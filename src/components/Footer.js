@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRef } from 'react'
-import emailjs from "emailjs-com"
+import emailjs from '@emailjs/browser';
 import "./sass/Footer.scss"
 import { menuList } from '../List/menuList'
 
@@ -9,7 +9,7 @@ export default function Footer() {
    const form = useRef()
   const sendEmail = (e) =>{
     e.preventDefault()
-    emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, process.env.YOUR_PUBLIC_KEY)
+    emailjs.sendForm('service_oetvj8m', 'template_wi8q1ci', form.current, 'f0yvaHKrqIraoBEur' )
     .then((result) => {
         console.log(result.text);
     }, (error) => {
@@ -24,8 +24,11 @@ export default function Footer() {
       <div className="formInner">
         <h5>Feedback</h5>
        <form ref={form} submit={sendEmail}>
-       <input type="text" name="user_name" placeholder="Enter Full Name" required/><br/><br/>
-       <input type="email" name="user_email" placeholder="Enter email" require/><br/><br/>
+       <label>Name</label>
+       <input type="text" name="user_name" placeholder="Enter Full Name" /><br/><br/>
+        <label>Email</label>
+       <input type="email" name="user_email" placeholder="Enter email" /><br/><br/>
+       <label>Message</label>
        <textarea  name="message"/><br/><br/>
        <input type="submit" value="send" className="submitBtn"/>
       </form>
